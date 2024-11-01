@@ -15,7 +15,7 @@ int main() {
 	int first_char = 0;
 	bool found = false;
 
-	// ini array of num chars
+	// walking through number's char from the last
 	for (int i = 1; i <= n; i++) {
 		int char_of_a = a % 10;
 		a = a / 10;
