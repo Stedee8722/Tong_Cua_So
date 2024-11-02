@@ -53,12 +53,12 @@ int main() {
 	if (first_char + num_shifted > 9) {
 		addition = abs(num_shifted - first_char);
 		for (int i = 1; i <= debt / 9; i++)
-			addition =+ addition * 10 + 9;
+			addition = addition * 10 + 9;
 	}
 	else {
 		addition = num_shifted + first_char;
 		for (int i = 1; i <= debt / 9; i++)
-			addition =+ addition * 10 + 9;
+			addition = addition * 10 + 9;
 	}
 
 	// you know what this is lmao
